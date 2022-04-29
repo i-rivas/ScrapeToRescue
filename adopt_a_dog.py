@@ -13,7 +13,7 @@ for dog in dogs:
     if 'Chihuahua, Short Coat/Mix' in dogs_type:
         print (dogs_type)
         more_info = dog.a['href']
-        print(f"https://ws.petango.com/webservices/adoptablesearch/" + more_info)
+        print(f"https://ws.petango.com/webservices/adoptablesearch/" + more_info + "\n")
 
     elif 'Chihuahua' in dogs_type:
         print (dogs_type)
